@@ -1,94 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@100;400&display=swap');
-.containerA{
-    width: 350px;
-    height: 450px;
-    box-shadow: 0 10px 60px #00000030;
+.ContainerA{
+    width: 396px;
+    height: 376px;
+    box-shadow: 0 10px 60px #00000050;
     margin: 0 auto;
-    border-radius: 6px;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.cabeçalho{
-    width: 350px;
-    height: 76px;
-    display: flex;
-    justify-content: space-between;
+.imagem{
+    width: 396px;
+    height: 174px;
+    border-radius: 8px;
+}
+.Conteúdo-textual{
+    margin-left: 12px;
+    width: 366px;
+    height: 126px;
+    justify-content: center;
     align-items: center;
-}
-.part1{
-    display: flex;
-}
-.circle{
-    margin-left: 16px;
-    margin-top: 14px;
-    width: 40px;
-	height: 40px;
-	border-radius: 50%;
-    text-align: center;
-    background-color: orangered;
-}
-.circle h2{
-    margin-top: 6px;
-    margin-right: 1px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-top: 14px;
-}
-.conta{
-    margin-left: 8px;
-}
-.LC{
-    margin-top: -8px;
-    color: gray;
-}
-button{
-    border: 0px;
-    width: 40px;
-	height: 40px;
-    border-radius: 50%;
-    margin-right: 6px;
-    transition: background 0.3s;
-    background-color: white;
-}
-button:hover{
-    background: rgb(214, 212, 212);
-    width: 40px;
-}
-.IMG-POST{
-    width: 350px;
-    height: 180px;
-}
-.Conteúdo-do-post{
-    margin: 0 auto;
-    padding: 8px;
-    color: gray;
-}
-.txt-box{
-    width: 350px;
-    height: 96px;
-    margin: 0 auto;
-    margin-top: 0px;
     flex-wrap: wrap;
 }
-.icone-btn{
-    margin-top: 3px;
-}
 .rodapé{
-    width: 350;
-    height: 50px;
-    margin-top: 36px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 14px;
+    flex-wrap: wrap;
 }
-.botão-footer{
-    margin-left: 6px;
+nav{
+    margin-left: 12px;
 }
-.botão-footer2{
-    margin-left: -6px;
+h2, p, a{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 12px;
+}
+p {
+    margin-left: 12px;
+    font-size: 14px;
+    margin-top: -2px;
+    color: rgb(97, 96, 96);
+}
+a:link {
+    padding: 4px;
+    color: blue;
+    text-decoration:none;
+}
+a{
+    color: rgb(49, 96, 248);
 }
